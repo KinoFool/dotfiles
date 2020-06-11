@@ -1,0 +1,1 @@
+/home/kinofool/.bashrc
