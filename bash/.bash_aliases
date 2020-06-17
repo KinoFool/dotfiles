@@ -7,6 +7,7 @@ alias baka='startx /bin/i3'
 alias share='python3 -m http.server 8080'
 alias home='sudo service xrdp start'
 alias dd='dd status=progress'
+alias ipp='curl http://ident.me && echo'
 
 #----------------- ls --------------------------#
 alias ls='ls --color=auto'
