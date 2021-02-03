@@ -5,4 +5,5 @@ OS: Pop OS
 Terminal: Terminator
 Text editors: Emacs / Atom / JetBrains suite
 
-To organize and easy manage my dotfiles i use stow
+To organize and easy manage my dotfiles i use GNU Stow
+
