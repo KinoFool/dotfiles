@@ -2,12 +2,13 @@
 
 #----------------- Linux -----------------------#
 alias bye='shutdown -h now'
-# alias maj='sudo apt-get update && sudo apt-get dist-upgrade -y && sudo apt autoremove -y'
+alias maj='sudo apt update && sudo apt full-upgrade -y'
+alias FullMaj='sudo apt-get update && sudo apt-get dist-upgrade -y && sudo apt autoremove -y'
 alias baka='startx /bin/i3'
 alias share='python3 -m http.server 8080'
 alias home='sudo service xrdp start'
 alias dd='dd status=progress'
-alias ipp='curl http://ident.me && echo'
+alias ipp='echo "##### PUBLIC IP #####" && echo -n "IPV4: " && curl http://v4.ident.me && echo -n "\nIPV6: " && curl http://v6.ident.me '
 
 #----------------- ls --------------------------#
 alias ls='ls --color=auto'
